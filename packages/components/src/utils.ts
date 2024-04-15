@@ -32,6 +32,7 @@ export const availableDependencies = [
     '@supabase/supabase-js',
     '@upstash/redis',
     '@zilliz/milvus2-sdk-node',
+    '@langchain/yandex',
     'apify-client',
     'axios',
     'cheerio',
