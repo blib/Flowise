@@ -112,6 +112,8 @@ class ChatYandexGPT_ChatModels implements INode {
 
         if (cache) obj.cache = cache
 
+        // eslint-disable-next-line no-console
+        console.log('ChatYandexGPT_ChatModels', obj)
         const model = new ChatYandexGPT(obj)
         return model
     }
